@@ -1,0 +1,6 @@
+services:
+  app:
+    build: ./
+    image: 'docker'
+    ports:
+      - "8080:8080"
